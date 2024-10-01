@@ -1,0 +1,117 @@
+.hi{
+  display: grid;
+  grid-template-columns: repeat(32, 50px);
+  grid-template-rows: repeat(32, 50px);
+  column-gap: 10px;
+  row-gap: 10px;
+  background-color: white;
+  padding: 1rem;
+}
+.one{
+  grid-column-start: 1;
+  grid-column-end: 6;
+  grid-row-start: 1;
+  grid-row-end: 4;
+  background-color: blue;
+}
+.two{
+  background-color: red;
+  grid-column-start: 6;
+  grid-column-end: 9;
+  grid-row-start: 1;
+  grid-row-end: 10;
+}
+.three{
+  background-color: green;
+  grid-column-start: 9;
+  grid-column-end: 12;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.four{
+  background-color: red;
+  grid-column-start: 12;
+  grid-column-end: 17;
+  grid-row-start: 1;
+  grid-row-end: 3;
+}
+.five{
+  background-color: red;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start: 4;
+  grid-row-end: 10;
+}
+.six{
+  background-color: blue;
+  grid-column-start: 4;
+  grid-column-end: 6;
+  grid-row-start: 4;
+  grid-row-end: 8 ;
+}
+.seven{
+  background-color: black;
+  grid-column-start: 4;
+  grid-column-end: 6;
+  grid-row-start: 8;
+  grid-row-end: 10 ;
+}
+.eight{
+  background-color: red;
+  grid-column-start: 9;
+  grid-column-end: 12;
+  grid-row-start: 3;
+  grid-row-end: 10;
+}
+.nine{
+  background-color: red;
+  grid-column-start: 12;
+  grid-column-end: 13;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+.eleven{
+  background-color: red;
+  grid-column-start: 13;
+  grid-column-end: 17;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+.twelve{
+  background-color: red;
+  grid-column-start: 12;
+  grid-column-end: 17;
+  grid-row-start: 4;
+  grid-row-end: 11;
+}
+.thirteen{
+  background-color: red;
+  grid-column-start: 1;
+  grid-column-end: 6;
+  grid-row-start: 10;
+  grid-row-end: 12;
+}
+.fourteen{
+  background-color: red;
+  grid-column-start: 6;
+  grid-column-end: 12;
+  grid-row-start: 10;
+  grid-row-end: 12;
+}
+.fifthteen{
+  background-color: red;
+  grid-column-start: 12;
+  grid-column-end: 17;
+  grid-row-start: 11;
+  grid-row-end: 12;
+}
+body {
+  box-sizing: border-box;
+}
+img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit:fill;
+  border-radius: 5px;
+}
